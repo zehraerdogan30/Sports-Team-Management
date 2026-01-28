@@ -1,0 +1,9 @@
+.warning-box {
+  background-color: #fff4cc;
+  padding: 14px 18px;
+  border-left: 6px solid #f0a100;
+  border-radius: 8px;
+  margin: 14px 0;
+  color: #775200;
+  font-size: 15px;
+}

@@ -1,0 +1,209 @@
+/* ---- PANEL GENEL ---- */
+
+.panel {
+  margin-top: 1.5rem;
+
+  background: radial-gradient(
+      circle at 0% 0%,
+      rgba(51, 65, 85, 0.35),
+      transparent 55%
+    ),
+    #020617;
+  border-radius: 18px;
+  padding: 2rem 2rem 2.2rem;
+
+  border: 1px solid rgba(30, 64, 175, 0.6);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.8);
+  color: #e5e7eb;
+}
+
+/* Başlık */
+
+.panel-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 1.6rem;
+}
+
+.panel-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.panel-subtitle {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* Info / error */
+
+.panel-info-text {
+  font-size: 0.9rem;
+  color: #e5e7eb;
+  margin-bottom: 0.9rem;
+}
+
+.panel-error-text {
+  font-size: 0.9rem;
+  color: #fecaca;
+  margin-bottom: 0.9rem;
+}
+
+/* ---- TEAM PILL’LER ---- */
+
+.team-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Tek takım kutusu */
+
+.team-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+
+  background: #020617;
+  border: 1px solid #1d4ed8;
+
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.9);
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.team-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.95);
+  border-color: #3b82f6;
+  background-color: #020b33;
+}
+
+.team-pill-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.team-pill-name:hover {
+  color: #f9fafb;
+}
+
+/* Kırmızı X butonu – daha minimal */
+
+.team-pill-remove {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #b91c1c;
+  color: #fee2e2;
+  font-size: 0.8rem;
+  cursor: pointer;
+
+  box-shadow: 0 4px 10px rgba(185, 28, 28, 0.6);
+  transition: transform 0.12s ease, filter 0.12s ease,
+    box-shadow 0.12s ease;
+}
+
+.team-pill-remove:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+}
+
+/* ---- ADD NEW TEAM KARTI ---- */
+
+.add-team-card {
+  margin-top: 0.5rem;
+  padding: 1.4rem 1.6rem;
+  border-radius: 16px;
+
+  background: #020617;
+  border: 1px solid #1f2937;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.9);
+}
+
+.add-team-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f9fafb;
+  margin-bottom: 1rem;
+}
+
+.add-team-form {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+/* Input + Button */
+
+.add-team-input {
+  flex: 1;
+  padding: 0.55rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid #4b5563;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 0.9rem;
+}
+
+.add-team-input::placeholder {
+  color: #6b7280;
+}
+
+.add-team-input:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.6);
+}
+
+/* Primary buton */
+
+.add-team-btn {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: #f9fafb;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.8);
+  transition: 0.15s ease;
+}
+
+.add-team-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 1);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .panel {
+    padding: 1.6rem 1.2rem 1.8rem;
+  }
+
+  .add-team-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .add-team-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
