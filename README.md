@@ -1,5 +1,8 @@
 # React + TypeScript + Vite
 
+## Live Demo
+https://zehraerdogan30.github.io/Sports-Team-Management/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -71,3 +74,6 @@ export default defineConfig([
   },
 ])
 ```
+<img width="1919" height="904" alt="image" src="https://github.com/user-attachments/assets/2694ff5c-fca3-4d7d-b496-76fb97c64983" />
+<img width="1891" height="903" alt="image" src="https://github.com/user-attachments/assets/038d939e-22fc-4776-a1a1-6ef8fbbcd894" />
+
