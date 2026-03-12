@@ -3,6 +3,7 @@ name: Deploy Vite site to GitHub Pages
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -22,17 +23,15 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./myapp-ts
 
       - name: Build
         run: npm run build
-        working-directory: ./myapp-ts
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./myapp-ts/dist
+          path: ./dist
 
   deploy:
     runs-on: ubuntu-latest
