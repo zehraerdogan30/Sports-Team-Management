@@ -1,0 +1,56 @@
+.player-card {
+  background: #fff;
+  padding: 16px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  width: 210px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.player-card h3 {
+  margin: 0 0 4px;
+  color: #333;
+}
+
+.player-card p {
+  margin: 0;
+  color: #666;
+}
+
+.player-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background: #ffca28;
+}
+
+.delete-btn {
+  background: #ff5252;
+  color: #fff;
+}
+
+.player-card {
+  transition: 0.2s ease;
+}
+
+.player-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}

@@ -1,0 +1,370 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Barcelona"
+    },
+    {
+      "id": "2",
+      "name": "Real Madrid"
+    },
+    {
+      "id": "3",
+      "name": "Beşiktaş"
+    },
+    {
+      "id": "692768",
+      "name": "Tenerife CD"
+    },
+      {
+      "id": "12",
+      "name": "Maribor"
+    }
+  ],
+
+  "players": [
+    {
+      "id": "1001",
+      "teamId": "1",
+      "name": "Ter Stegen",
+      "number": 1,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "1002",
+      "teamId": "1",
+      "name": "Kounde",
+      "number": 23,
+      "position": "Right Back"
+    },
+    {
+      "id": "1003",
+      "teamId": "1",
+      "name": "Araujo",
+      "number": 4,
+      "position": "Center Back"
+    },
+    {
+      "id": "1004",
+      "teamId": "1",
+      "name": "Iñigo Martínez",
+      "number": 5,
+      "position": "Center Back"
+    },
+    {
+      "id": "1005",
+      "teamId": "1",
+      "name": "Balde",
+      "number": 28,
+      "position": "Left Back"
+    },
+    {
+      "id": "1006",
+      "teamId": "1",
+      "name": "Gavi",
+      "number": 6,
+      "position": "Midfielder"
+    },
+    {
+      "id": "1007",
+      "teamId": "1",
+      "name": "Pedri",
+      "number": 8,
+      "position": "Midfielder"
+    },
+    {
+      "id": "1008",
+      "teamId": "1",
+      "name": "Frenkie de Jong",
+      "number": 21,
+      "position": "Midfielder"
+    },
+    {
+      "id": "1009",
+      "teamId": "1",
+      "name": "Yamal",
+      "number": 27,
+      "position": "Right Wing"
+    },
+    {
+      "id": "1010",
+      "teamId": "1",
+      "name": "Lewandowski",
+      "number": 9,
+      "position": "Striker"
+    },
+    {
+      "id": "1011",
+      "teamId": "1",
+      "name": "Joao Felix",
+      "number": 14,
+      "position": "Left Wing"
+    },
+    {
+      "id": "2001",
+      "teamId": "2",
+      "name": "Courtois",
+      "number": 1,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "2002",
+      "teamId": "2",
+      "name": "Carvajal",
+      "number": 2,
+      "position": "Right Back"
+    },
+    {
+      "id": "2003",
+      "teamId": "2",
+      "name": "Rüdiger",
+      "number": 22,
+      "position": "Center Back"
+    },
+    {
+      "id": "2004",
+      "teamId": "2",
+      "name": "Alaba",
+      "number": 4,
+      "position": "Center Back"
+    },
+    {
+      "id": "2005",
+      "teamId": "2",
+      "name": "Mendy",
+      "number": 23,
+      "position": "Left Back"
+    },
+    {
+      "id": "2006",
+      "teamId": "2",
+      "name": "Valverde",
+      "number": 15,
+      "position": "Midfielder"
+    },
+    {
+      "id": "2007",
+      "teamId": "2",
+      "name": "Tchouaméni",
+      "number": 18,
+      "position": "Midfielder"
+    },
+    {
+      "id": "2008",
+      "teamId": "2",
+      "name": "Kroos",
+      "number": 8,
+      "position": "Midfielder"
+    },
+    {
+      "id": "2009",
+      "teamId": "2",
+      "name": "Bellingham",
+      "number": 5,
+      "position": "Attacking Midfielder"
+    },
+    {
+      "id": "2010",
+      "teamId": "2",
+      "name": "Vinicius Jr",
+      "number": 7,
+      "position": "Left Wing"
+    },
+    {
+      "id": "2011",
+      "teamId": "2",
+      "name": "Rodrygo",
+      "number": 11,
+      "position": "Right Wing"
+    },
+    {
+      "id": "3001",
+      "teamId": "3",
+      "name": "Mert Günok",
+      "number": 1,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "3002",
+      "teamId": "3",
+      "name": "Onur Bulut",
+      "number": 4,
+      "position": "Right Back"
+    },
+    {
+      "id": "3003",
+      "teamId": "3",
+      "name": "Colley",
+      "number": 6,
+      "position": "Center Back"
+    },
+    {
+      "id": "3004",
+      "teamId": "3",
+      "name": "Necip Uysal",
+      "number": 20,
+      "position": "Center Back"
+    },
+    {
+      "id": "3005",
+      "teamId": "3",
+      "name": "Masuaku",
+      "number": 26,
+      "position": "Left Back"
+    },
+    {
+      "id": "3006",
+      "teamId": "3",
+      "name": "Salih Uçan",
+      "number": 8,
+      "position": "Midfielder"
+    },
+    {
+      "id": "3007",
+      "teamId": "3",
+      "name": "Gedson",
+      "number": 83,
+      "position": "Midfielder"
+    },
+    {
+      "id": "3008",
+      "teamId": "3",
+      "name": "Rashica",
+      "number": 11,
+      "position": "Right Wing"
+    },
+    {
+      "id": "3009",
+      "teamId": "3",
+      "name": "Muleka",
+      "number": 40,
+      "position": "Forward"
+    },
+    {
+      "id": "3010",
+      "teamId": "3",
+      "name": "Chamberlain",
+      "number": 15,
+      "position": "Midfielder"
+    },
+    {
+      "id": "3011",
+      "teamId": "3",
+      "name": "Aboubakar",
+      "number": 10,
+      "position": "Striker"
+    },
+    {
+      "id": "16e6",
+      "teamId": 4,
+      "name": "Kenan Yıldız",
+      "number": 10,
+      "position": "midfielder"
+    },
+    {
+      "id": "92af",
+      "teamId": 692768,
+      "name": "Dani Martin",
+      "number": 1,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "432d",
+      "teamId": 692768,
+      "name": "Landázuri",
+      "number": 12,
+      "position": "Centre back"
+    },
+    {
+      "id": "41ca",
+      "teamId": 692768,
+      "name": "Enrıc Gallego",
+      "number": 18,
+      "position": "Centre forward"
+    },
+    {
+      "id": "c51c",
+      "teamId": 662479,
+      "name": "Benjamin Tetteh",
+      "number": 5,
+      "position": "Forward"
+    },
+    {
+      "id": "1602",
+      "teamId": 473792,
+      "name": "Benjamin Tetteh",
+      "number": 1,
+      "position": "Forward"
+    },
+    {
+    "teamId": 12,
+    "name": "Jug",
+    "number": 1,
+    "position": "GK"
+  },
+  {
+    "teamId": 12,
+    "name": "Karanovic",
+    "number": 2,
+    "position": "RB"
+  },
+  {
+    "teamId": 12,
+    "name": "Watson",
+    "number": 43,
+    "position": "CB"
+  },
+  {
+    "teamId": 12,
+    "name": "Rajcevic",
+    "number": 31,
+    "position": "CB"
+  },
+  {
+    "teamId": 12,
+    "name": "Sturm",
+    "number": 27,
+    "position": "LB"
+  },
+  {
+    "teamId": 12,
+    "name": "Kouter",
+    "number": 16,
+    "position": "CDM"
+  },
+  {
+    "teamId": 12,
+    "name": "Bozickovic",
+    "number": 52,
+    "position": "CM"
+  },
+  {
+    "teamId": 12,
+    "name": "Kronaveter",
+    "number": 10,
+    "position": "CAM"
+  },
+  {
+    "teamId": 12,
+    "name": "Tolic",
+    "number": 17,
+    "position": "RW"
+  },
+  {
+    "teamId": "12",
+    "name": "Brnic",
+    "number": 9,
+    "position": "LW"
+  },
+  {
+    "teamId": "12",
+    "name": "Vipotnik",
+    "number": 11,
+    "position": "ST"
+  }
+
+  ]
+}
+
+
+  

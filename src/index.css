@@ -1,0 +1,9 @@
+body {
+  background:
+    radial-gradient(1000px at 10% 20%, #F9E7FF 0%, transparent 75%),
+    radial-gradient(1200px at 80% 0%, #D4E6FF 0%, transparent 75%),
+    radial-gradient(1000px at 50% 100%, #FFE5D0 0%, transparent 75%),
+    #FAFAFA;
+  color: var(--text-main);
+  font-family: "Inter", system-ui, sans-serif;
+}
